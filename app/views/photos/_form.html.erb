@@ -1,0 +1,9 @@
+<%= form_with(url: new_photo_path, method: 'get') do %>
+  <div class="form">
+    <%= text_field_tag :user_id, nil, placeholder: "Enter User ID" %>
+  </div>
+  <div class="form">
+    <%= submit_tag 'Show photos' %>
+  </div>
+<% end %>
+
